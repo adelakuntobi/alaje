@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import image from '../../images/Rectangle 11.png'
 function Popularsample() {
   const overFunction = () => {

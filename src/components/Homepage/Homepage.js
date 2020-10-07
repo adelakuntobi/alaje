@@ -4,15 +4,13 @@ import header2 from '../../images/header2.svg'
 // import Group24 from '../../images/Group 24.png'
 import Union from '../../images/Union.png'
 import Rectangle1 from '../../images/Rectangle 1.png'
-import Rectangle38 from '../../images/Rectangle 38.png'
-import Rectangle39 from '../../images/Rectangle 39.png'
-import Rectangle40 from '../../images/Rectangle 40.png'
 import Popular from '../Popular/Popular';
-import { FaFacebookF, FaInstagram } from  'react-icons/fa';
-import { SiGmail, SiTwitter } from  'react-icons/si';
+import { FaEnvelope, FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { SiGmail, SiTwitter } from 'react-icons/si';
 import { ImWhatsapp } from 'react-icons/im'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Testimonials from '../Testimonials/Testimonials';
 
 AOS.init();
 function Homepage() {
@@ -48,7 +46,7 @@ function Homepage() {
             </ul>
           </div>
           <div>
-            <img className="mx-auto lg:mb-6" src={Rectangle1} alt="the-img" data-aos="fade-right" />
+            <img className="border-img mx-auto lg:mb-6" src={Rectangle1} alt="the-img" data-aos="fade-right" />
             <div className="block lg:hidden" data-aos="fade-up-right">
               <h1 className="green-text text-4xl font-semibold leading-tight my-6">
                 Your Best Stop for Phones,
@@ -101,32 +99,7 @@ function Homepage() {
 
         {/* Testimonials */}
 
-        <div className="blue-bg md:p-12 px-5 py-8 w-full">
-          <div className="container mx-auto">
-            <div className="text-center">
-              <h1 className="green-text text-2xl font-semibold leading-snug my-2">Testimonials</h1>
-              <p>We appreciate reviews fromour customers because their satisfaction remains our priority</p>
-            </div>
-            <div className="grid gap-4 grid-flow-col py-12 lg:px-8">
-              <div className="flex items-baseline w-full lg:w-1/2">
-                <img data-aos="fade-down"
-                  data-aos-easing="linear" 
-                  className="hidden lg:block pr-4" src={Rectangle38} alt="testimonial" />
-                <img data-aos="fade-down"
-                  data-aos-easing="linear"
-                  data-aos-delay="250" className="hidden lg:block pr-4" src={Rectangle39} alt="testimonial" />
-                <img data-aos="fade-down"
-                  data-aos-easing="linear" data-aos-delay="500"
-                  className="w-full lg:pr-4" src={Rectangle40} alt="testimonial" />
-              </div>
-              <div className="w-full md:w-9/12 my-auto mx-6 lg:mx-auto">
-                <h2 className="font-semibold text-2xl">Adelakun Tobiloba</h2>
-                <p className="pb-12">Engineer</p>
-                <p>Thank you Alaje! You have been the best site I have ever patronized. Thank you so much again </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Testimonials />
       </main>
 
       <div className=" lg:px-16">
@@ -150,13 +123,14 @@ function Homepage() {
             <div className="flex flex-col items-center lg:items-start lg:col-span-2">
               <img className="my-4" src={alajelogo} alt="alaje" />
               <div className="flex">
-                <FaFacebookF className="mx-2"/>
+
+                <a href="https://web.facebook.com/alajeonline" >
+                  <FaFacebookF className="mx-2" />
+                </a>
                 <SiTwitter className="mx-2" />
                 <FaInstagram className="mx-2" />
                 <ImWhatsapp className="mx-2" />
                 <SiGmail className="mx-2" />
-                {/* <i className="mx-2 fab fa-whatsapp"></i> */}
-                {/* <i className="mx-2 far fa-envelope"></i> */}
               </div>
             </div>
             <ul className="flex flex-col">
@@ -171,9 +145,10 @@ function Homepage() {
             </ul>
             <form className="flex flex-col lg:flex-row items-start justify-between lg:pl-8 lg:col-span-3 ">
               <div className="flex bg-white items-center hover:shadow w-full my-2 lg:my-0 lg:mx-2">
-                <i className="mx-4 fas fa-envelope"></i>
+                {/* <i className="mx-4 fas fa-envelope"></i> */}
+                <FaEnvelope className="mx-4" />
                 <input className="py-2 w-full text-black outline-none" placeholder="Enter Email Address"
-                  type="email" for="email" />
+                  type="email" htmlFor="email" />
               </div>
               <button className="py-2 px-4 w-full lg:w-auto outline-none green-text orange-bg font-normal" value="submit" type="submit">
                 <a href="https://github.com/evcohen">
