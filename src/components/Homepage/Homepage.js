@@ -11,7 +11,6 @@ import { ImWhatsapp } from 'react-icons/im'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Testimonials from '../Testimonials/Testimonials';
-import Test from '../Testing/Test';
 
 AOS.init();
 function Homepage() {
