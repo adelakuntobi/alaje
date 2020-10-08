@@ -32,11 +32,11 @@ function Homepage() {
             in Nigeria at
             best prices | Easy Return | Quick Refund.
         </p>
-            <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
-              <a href="https://github.com/evcohen">
+            <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
+              <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
-          </a>
             </button>
+            </a>
 
             <ul className="list-disc my-12 pl-6">
               <li className="my-4">Payment on Delivery</li>
@@ -56,11 +56,11 @@ function Homepage() {
               in Nigeria at
               best prices | Easy Return | Quick Refund.
           </p>
-              <button className="py-2 px-12 border outline-none mb-16 green-text orange-bg font-normal">
-                <a href="https://github.com/evcohen">
+              <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
+                <button className="py-2 px-12 border outline-none mb-16 green-text orange-bg font-normal">
                   Shop Now
-            </a>
               </button>
+              </a>
             </div>
             <img className="mx-auto lg:mb-6" src={header2} alt="alternate" data-aos="fade-right" data-aos-delay="150" />
             <ul className="list-disc my-6 pl-6 block lg:hidden">
@@ -90,9 +90,11 @@ function Homepage() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Eum minus, molestias eius veritatis rerum earum quia nulla
             quae dolor reiciendis atque nemo. Harum maxime sed eveniet error quam in dicta?</p>
-            <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
-              <a href="https://github.com/evcohen">Shop Now </a>
+            <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
+              <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
+                Shop Now
             </button>
+            </a>
           </div>
           <img className="w-4/12 w-full lg:w-8/12 my-5" src={Union} alt="alternate" />
         </div>
@@ -109,11 +111,11 @@ function Homepage() {
             <p className="mt-8">Be the first to know about our new products (Phones, Tablets, Computers, Electronics, Game
             consoles,
           accessories & more) at best prices | Easy Return | Quick Refund.</p>
-            <button className="text-white py-2 px-12 outline-none my-5 green-text orange-bg font-normal">
-              <a className="text-white" href="https://github.com/evcohen">
+            <a className="text-white" href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
+              <button className="text-white py-2 px-12 outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
-          </a>
             </button>
+            </a>
           </div>
         </footer>
       </div>
@@ -124,12 +126,18 @@ function Homepage() {
               <img className="my-4" src={alajelogo} alt="alaje" />
               <div className="flex">
 
-                <a href="https://web.facebook.com/alajeonline" >
+                <a href="https://web.facebook.com/alajeonline" target="_blank" rel="noopener noreferrer">
                   <FaFacebookF className="mx-2" />
                 </a>
-                <SiTwitter className="mx-2" />
-                <FaInstagram className="mx-2" />
-                <ImWhatsapp className="mx-2" />
+                <a href="https://twitter.com/alajeonline" target="_blank" rel="noopener noreferrer">
+                  <SiTwitter className="mx-2" />
+                </a>
+                <a href="https://www.instagram.com/alajeonline/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="mx-2" />
+                </a>
+                <a href="https://www.wa.link/9okvfh" target="_blank" rel="noopener noreferrer">
+                  <ImWhatsapp className="mx-2" />
+                </a>
                 <SiGmail className="mx-2" />
               </div>
             </div>
