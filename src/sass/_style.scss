@@ -93,7 +93,20 @@ section.sample:hover{
   outline: none;
   box-shadow: inset 0 0 1px 0px violet;
 }
-
+.chowzb:hover:enabled, .chowzb:focus:enabled {
+  background-color: #FEB026 !important;
+}
+.ikyGAt:hover, .ikyGAt:focus {
+  box-shadow: 0 0 1px 3px #FEB026 !important;
+}
+.brcpxa {
+  background-color: #FEB026 !important;
+  box-shadow: 0 0 1px 3px #feb02680 !important;
+}
+button:focus{
+  outline: none !important;
+  box-shadow: 0 0 1px 3px #feb02680 !important;
+}
 @media (max-width: 768px) {
   .border-img {
     border-radius: 0px;
