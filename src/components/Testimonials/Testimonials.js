@@ -22,7 +22,7 @@ function Testimonials() {
           </div>
 
           {/* <div className="flex flex-col lg:flex-row justify-between items-stretch test-contain"> */}
-            <Carousel breakPoints={breakPoints} enableAutoPlay enableMouseSwipe>
+            <Carousel breakPoints={breakPoints} enableAutoPlay enableMouseSwipe className="testimoney">
               <Sample text="Alaje stores is the best, I contatced them via instagram and everything was so
         smooth. Once again, Thank you Alaje, I would always be a customer from today on."
                 name="Adelakun Tobi"

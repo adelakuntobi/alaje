@@ -10,7 +10,6 @@ function Popularsample({ productname }) {
   const [isButton, setIsButton] = useState(false)
   const tobi = JSON.stringify(productname)
   const tobi2 = JSON.parse(tobi)
-  console.log(tobi)
   return (
     <div className="sample h-76 bg-white cursor-pointer hover:bg-gray-300" onMouseOver={overFunction} onMouseOut={outFunction}>
       <div className="text-center px-3 py-8">
