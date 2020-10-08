@@ -20,13 +20,13 @@ function Popular() {
 
         <div className="grid sm:w-8/12 w-full md:w-full mx-auto gap-x-6 gap-y-12 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 p-5">
           <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
-          <Popularsample productname="Samsung Galaxy M11"/>
+          <Popularsample productname="Infinix Hot 6"/>
+          <Popularsample productname="iPhone X"/>
+          <Popularsample productname="Galaxy Note 4"/>
+          <Popularsample productname="Tecno Spark 4"/>
+          <Popularsample productname="Nokia 4"/>
+          <Popularsample productname="Galaxy Tab"/>
+          <Popularsample productname="Inifinix Spark Plug"/>
         </div>
       </div>
     </div>
