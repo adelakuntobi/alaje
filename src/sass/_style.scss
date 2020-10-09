@@ -92,7 +92,8 @@ section.sample:hover{
 /* square buttons */
 
 /* round buttons on hover */
-.rec.rec-arrow:hover {
+.rec.rec-arrow,.rec.rec-arrow:hover {
+  color: white;
   border-radius: 50%;
   background-color: #FEB026 !important;
 }
@@ -116,8 +117,23 @@ button:focus{
   outline: none !important;
   box-shadow: 0 0 1px 3px #feb02680 !important;
 }
+.active-popular li{
+  background-color: #03A84E;
+  color: white;
+}
 @media (max-width: 768px) {
   .border-img {
     border-radius: 0px;
+  }
+  .rec.rec-arrow{
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  .testimony{
+    bottom: 0;
+    top: 89%;
   }
 }
