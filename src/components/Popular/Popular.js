@@ -7,7 +7,7 @@ import Accessories from './Accessories'
 
 function Popular() {
   return (
-    <div className="blue-bg md:p-12 px-0 py-8 w-full">
+    <div id="popular" className="blue-bg md:p-12 px-0 py-8 w-full">
       <div className="container mx-auto">
         <div className="text-center">
           <h1 className="green-text text-2xl font-semibold leading-snug my-2">Popular Categories</h1>

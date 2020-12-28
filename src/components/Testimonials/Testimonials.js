@@ -14,7 +14,7 @@ const breakPoints = [
 function Testimonials() {
   return (
     <div>
-      <div className="blue-bg md:px-12 md:pt-12 pb-32 px-5 pt-8 w-full">
+      <div id="testimonials" className="blue-bg md:px-12 md:pt-12 pb-32 px-5 pt-8 w-full">
         <div className="container mx-auto">
           <div className="text-center my-8">
             <h1 className="green-text text-2xl font-semibold leading-snug my-2">Testimonials</h1>

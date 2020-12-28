@@ -11,6 +11,7 @@ import { ImWhatsapp } from 'react-icons/im'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Testimonials from '../Testimonials/Testimonials';
+import { Link } from 'react-scroll';
 
 AOS.init();
 function Homepage() {
@@ -21,7 +22,7 @@ function Homepage() {
           <img src={alajelogo} loading="lazy" alt="alaje logo" />
         </nav>
 
-        <div className="flex pt-8 pb-0 lg:pb-8 justify-between items-center">
+        <div id="home" className="flex pt-8 pb-0 lg:pb-8 justify-between items-center">
           <div className="w-1/2 pr-16 mx-auto hidden lg:block" data-aos="fade-left">
             <span className="uppercase font-light pb-4 orange-text">Online gadget store</span>
             <h1 className="green-text text-4xl font-semibold leading-snug my-6">
@@ -82,7 +83,7 @@ function Homepage() {
           */}
 
 
-        <div className="container mx-auto flex flex-col lg:flex-row px-5 py-8 md:p-8 items-center">
+        <div id="about" className="container mx-auto flex flex-col lg:flex-row px-5 py-8 md:p-8 items-center">
           <div className="lg:pr-12 pt-0 lg:py-8 text-center lg:text-left">
             <h1 className="green-text text-2xl font-semibold leading-snug my-6">About Our Company</h1>
             <p className="">We are Alaje, we provide quality provide.
@@ -96,7 +97,7 @@ function Homepage() {
             </button>
             </a>
           </div>
-          <img className="w-4/12 w-full lg:w-8/12 my-5" src={Union} alt="alternate" />
+          <img className="w-full lg:w-8/12 my-5" src={Union} alt="alternate" />
         </div>
 
         {/* Testimonials */}
@@ -142,14 +143,26 @@ function Homepage() {
               </div>
             </div>
             <ul className="flex flex-col">
-              <li className="py-0 lg:py-2">Home</li>
-              <li className="py-0 lg:py-2">About Us</li>
-              <li className="py-0 lg:py-2">Testimonials</li>
+              <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
+                <li className="py-0 lg:py-2">Home</li>
+              </Link>
+              <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
+                <li className="py-0 lg:py-2">About Us</li>
+              </Link>
+              <Link to="testimonials" spy={true} smooth={true} offset={-70} duration={500}>
+                <li className="py-0 lg:py-2">Testimonials</li>
+              </Link>
             </ul>
             <ul className="flex flex-col">
-              <li className="py-0 lg:py-2">Shop Now</li>
-              <li className="py-0 lg:py-2">Contact Us</li>
-              <li className="py-0 lg:py-2">Popular categories</li>
+              <Link to="popular" spy={true} smooth={true} offset={-70} duration={500}>
+                <li className="py-0 lg:py-2">Shop Now</li>
+              </Link>
+              <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                <li className="py-0 lg:py-2">Contact Us</li>
+              </Link>
+              <Link to="popular" spy={true} smooth={true} offset={-70} duration={500}>
+                <li className="py-0 lg:py-2">Popular categories</li>
+              </Link>
             </ul>
             <form className="flex flex-col lg:flex-row items-start justify-between lg:pl-8 lg:col-span-3 ">
               <div className="flex bg-white items-center hover:shadow w-full my-2 lg:my-0 lg:mx-2">
@@ -168,7 +181,7 @@ function Homepage() {
         </div>
       </div>
 
-    </div>
+    </div >
   )
 }
 
