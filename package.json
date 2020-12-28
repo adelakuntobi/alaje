@@ -19,6 +19,7 @@
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.11",
     "react-swipeable-views": "^0.13.9",
+    "react-tabs": "^3.1.2",
     "styled-components": "^5.2.0",
     "tailwindcss": "^1.8.10"
   },
