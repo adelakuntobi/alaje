@@ -20,7 +20,7 @@ function Testimonials() {
         <div className="container mx-auto">
           <div className="text-center my-8">
             <h1 className="green-text text-2xl font-semibold leading-snug my-2">Testimonials</h1>
-            <p>We appreciate reviews fromour customers because their satisfaction remains our priority</p>
+            <p>We appreciate reviews from our customers because their satisfaction remains our priority</p>
           </div>
 
           {/* <div className="flex flex-col lg:flex-row justify-between items-stretch test-contain"> */}
