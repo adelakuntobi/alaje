@@ -12,14 +12,14 @@ import ipadPro from '../../images/products/phones/IPad Pro.PNG'
 function Phones() {
   return (
     <>
-      <Popularsample name="IPhone X 64GB" price="200,000" image={iphoneX} desc="Pre Owned" />
-      <Popularsample name="Samsung S6 EDGE" price="45,000" image={samsungS6} desc="Pre Owned" />
-      <Popularsample name="Samsung S9+" price="110,000" image={s9} desc="Pre Owned" />
-      <Popularsample name="Tecno Spark 5 Pro" price="64,500" image={spark5} desc="New, 128gb / 4gb ram" />
-      <Popularsample name="Redmi 9A" price="47,000" image={redmi9} desc="New, 32gb / 2gb ram" />
-      <Popularsample name="iPhone 7+ 32gb" price="125,000" image={iphone7} desc="Pre Owned" />
-      <Popularsample name="Samsung S20s" price="315,000" image={s20} desc="New, 256gb/ 8gb ram" />
-      <Popularsample name="IPAD PRO WIFI" price="346,000" image={ipadPro} desc="New, +CELLULAR, 64GB 12''/2018" />
+      <Popularsample name="IPhone X 64GB" price="200000" image={iphoneX} desc="Pre Owned" />
+      <Popularsample name="Samsung S6 EDGE" price="45000" image={samsungS6} desc="Pre Owned" />
+      <Popularsample name="Samsung S9+" price="110000" image={s9} desc="Pre Owned" />
+      <Popularsample name="Tecno Spark 5 Pro" price="64500" image={spark5} desc="New, 128gb / 4gb ram" />
+      <Popularsample name="Redmi 9A" price="47000" image={redmi9} desc="New, 32gb / 2gb ram" />
+      <Popularsample name="iPhone 7+ 32gb" price="125000" image={iphone7} desc="Pre Owned" />
+      <Popularsample name="Samsung S20s" price="315000" image={s20} desc="New, 256gb/ 8gb ram" />
+      <Popularsample name="IPAD PRO WIFI" price="346000" image={ipadPro} desc="New, +CELLULAR, 64GB 12''/2018" />
     </>
   )
 } 

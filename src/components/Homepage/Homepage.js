@@ -29,9 +29,7 @@ function Homepage() {
               Your Best Stop for Phones,<br />
                 Laptops, Accessories
         </h1>
-            <p className="my-5">Buy warranty Phones, Tablets, Computers, Electronics, Game consoles, accessories & more online
-            in Nigeria at
-            best prices | Easy Return | Quick Refund.
+            <p className="my-5">Buy Quality Phones, Laptops ,Gaming Consoles ,accessories and more at Best Prices.
         </p>
             <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
               <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
@@ -40,10 +38,9 @@ function Homepage() {
             </a>
 
             <ul className="list-disc my-12 pl-6">
-              <li className="my-4">Payment on Delivery</li>
               <li className="my-4">Nationwide Delivery </li>
-              <li className="my-4">Easy Return. Quick Refund</li>
-              <li className="my-4">Warranty Products</li>
+              <li className="my-4">Products Warranty</li>
+              <li className="my-4">Free delivery in Lagos</li>
             </ul>
           </div>
           <div>
@@ -53,9 +50,7 @@ function Homepage() {
                 Your Best Stop for Phones,
                 Laptops, Accessories
           </h1>
-              <p className="mt-5 mb-3">Buy warranty Phones, Tablets, Computers, Electronics, Game consoles, accessories & more online
-              in Nigeria at
-              best prices | Easy Return | Quick Refund.
+              <p className="mt-5 mb-3">Buy Quality Phones, Laptops ,Gaming Consoles ,accessories and more at Best Prices.
           </p>
               <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
                 <button className="py-2 px-12 border outline-none mb-16 green-text orange-bg font-normal">
@@ -65,10 +60,9 @@ function Homepage() {
             </div>
             <img className="mx-auto lg:mb-6" src={header2} alt="alternate" data-aos="fade-right" data-aos-delay="150" />
             <ul className="list-disc my-6 pl-6 block lg:hidden">
-              <li data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className="mt-4">Payment on Delivery</li>
-              <li data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000" className="mt-4">Nationwide Delivery </li>
-              <li data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" className="mt-4">Easy Return. Quick Refund</li>
-              <li data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000" className="mt-4">Warranty Products</li>
+              <li data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className="mt-4">Nationwide Delivery </li>
+              <li data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000" className="mt-4">Products Warranty</li>
+              <li data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" className="mt-4">Free delivery in Lagos</li>
             </ul>
           </div>
         </div>
@@ -86,11 +80,7 @@ function Homepage() {
         <div id="about" className="container mx-auto flex flex-col lg:flex-row px-5 py-8 md:p-8 items-center">
           <div className="lg:pr-12 pt-0 lg:py-8 text-center lg:text-left">
             <h1 className="green-text text-2xl font-semibold leading-snug my-6">About Our Company</h1>
-            <p className="">We are Alaje, we provide quality provide.
-            A trial will change your mind. Slide in now
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Eum minus, molestias eius veritatis rerum earum quia nulla
-            quae dolor reiciendis atque nemo. Harum maxime sed eveniet error quam in dicta?</p>
+            <p className="">Alaje is a team of Tech guys thats provides a safe market place to purchase your gadgets and accessories online. We also provide quality repair service for your faulty devices.</p>
             <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
               <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
@@ -112,11 +102,24 @@ function Homepage() {
             <p className="mt-8">Be the first to know about our new products (Phones, Tablets, Computers, Electronics, Game
             consoles,
           accessories & more) at best prices | Easy Return | Quick Refund.</p>
-            <a className="text-white" href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
+            {/* <a className="text-white" href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
               <button className="text-white py-2 px-12 outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
             </button>
+            </a> */}
+            <form className="flex flex-col lg:flex-row items-start justify-between lg:pl-8 lg:w-8/12 my-4 mx-auto ">
+              <div className="flex bg-white items-center hover:shadow w-full my-2 lg:my-0 lg:mx-2">
+                {/* <i className="mx-4 fas fa-envelope"></i> */}
+                <FaEnvelope className="mx-4" />
+                <input className="py-2 w-full text-black outline-none" placeholder="Enter Email Address"
+                  type="email" htmlFor="email" />
+              </div>
+              <button className="py-2 px-4 w-full lg:w-auto outline-none green-text orange-bg font-normal" value="submit" type="submit">
+                <a href="https://github.com/evcohen">
+                  Subscribe
             </a>
+              </button>
+            </form>
           </div>
         </footer>
       </div>

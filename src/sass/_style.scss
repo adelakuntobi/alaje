@@ -116,12 +116,18 @@ section.sample:hover{
   box-shadow: 0 0 1px 3px #feb02680 !important;
 }
 button:focus{
-  outline: none !important;
-  box-shadow: 0 0 1px 3px #feb02680 !important;
+  border: 2px solid #feb02680 !important;
+  /* box-shadow: 0 0 1px 3px #feb02680 !important; */
+  outline: none;
 }
 .active-popular{
   background-color: #03A84E;
   color: white;
+}
+
+.viewMore{
+  bottom: -3rem;
+  right: -3rem;
 }
 
 .product{
