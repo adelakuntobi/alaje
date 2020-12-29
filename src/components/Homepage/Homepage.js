@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Testimonials from '../Testimonials/Testimonials';
 import { Link } from 'react-scroll';
+import { MdLocationOn } from 'react-icons/md';
 
 AOS.init();
 function Homepage() {
@@ -110,7 +111,7 @@ function Homepage() {
             <form className="flex flex-col lg:flex-row items-start justify-between lg:pl-8 lg:w-8/12 my-4 mx-auto ">
               <div className="flex bg-white items-center hover:shadow w-full my-2 lg:my-0 lg:mx-2">
                 {/* <i className="mx-4 fas fa-envelope"></i> */}
-                <FaEnvelope className="mx-4" />
+                <FaEnvelope className="mx-4 text-black" />
                 <input className="py-2 w-full text-black outline-none" placeholder="Enter Email Address"
                   type="email" htmlFor="email" />
               </div>
@@ -127,23 +128,9 @@ function Homepage() {
         <div className="container mx-auto">
           <div className="grid gap-6 grid-rows-1 lg:grid-cols-7">
             <div className="flex flex-col items-center lg:items-start lg:col-span-2">
-              <img className="my-4" src={alajelogo} alt="alaje" />
-              <div className="flex">
-
-                <a href="https://web.facebook.com/alajeonline" target="_blank" rel="noopener noreferrer">
-                  <FaFacebookF className="mx-2" />
-                </a>
-                <a href="https://twitter.com/alajeonline" target="_blank" rel="noopener noreferrer">
-                  <SiTwitter className="mx-2" />
-                </a>
-                <a href="https://www.instagram.com/alajeonline/" target="_blank" rel="noopener noreferrer">
-                  <FaInstagram className="mx-2" />
-                </a>
-                <a href="https://www.wa.link/9okvfh" target="_blank" rel="noopener noreferrer">
-                  <ImWhatsapp className="mx-2" />
-                </a>
-                <SiGmail className="mx-2" />
-              </div>
+              <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
+                <img className="my-4" src={alajelogo} alt="alaje" />
+              </Link>
             </div>
             <ul className="flex flex-col">
               <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
@@ -167,19 +154,29 @@ function Homepage() {
                 <li className="py-0 lg:py-2">Popular categories</li>
               </Link>
             </ul>
-            <form className="flex flex-col lg:flex-row items-start justify-between lg:pl-8 lg:col-span-3 ">
-              <div className="flex bg-white items-center hover:shadow w-full my-2 lg:my-0 lg:mx-2">
-                {/* <i className="mx-4 fas fa-envelope"></i> */}
-                <FaEnvelope className="mx-4" />
-                <input className="py-2 w-full text-black outline-none" placeholder="Enter Email Address"
-                  type="email" htmlFor="email" />
+            <div className="flex flex-col lg:pl-8 lg:col-span-3 ">
+              <a href="https://goo.gl/maps/WymuqyXPk9Msi5wQA" 
+              target="_blank" rel="noopener noreferrer"
+               className="flex flex-row items-center mb-6">
+                <MdLocationOn className="text-2xl mr-3" />
+                <p><b>Alaje Stores</b>, Isheri Oshun Rd, Ejigbo, Lagos</p>
+              </a>
+              <div className="flex">
+                <a href="https://web.facebook.com/alajeonline" target="_blank" rel="noopener noreferrer">
+                  <FaFacebookF className="mx-2" />
+                </a>
+                <a href="https://twitter.com/alajeonline" target="_blank" rel="noopener noreferrer">
+                  <SiTwitter className="mx-2" />
+                </a>
+                <a href="https://www.instagram.com/alajeonline/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="mx-2" />
+                </a>
+                <a href="https://www.wa.link/9okvfh" target="_blank" rel="noopener noreferrer">
+                  <ImWhatsapp className="mx-2" />
+                </a>
+                <SiGmail className="mx-2" />
               </div>
-              <button className="py-2 px-4 w-full lg:w-auto outline-none green-text orange-bg font-normal" value="submit" type="submit">
-                <a href="https://github.com/evcohen">
-                  Subscribe
-            </a>
-              </button>
-            </form>
+            </div>
           </div>
         </div>
       </div>

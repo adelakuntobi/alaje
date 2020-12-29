@@ -5,8 +5,8 @@ import { ImQuotesLeft } from 'react-icons/im'
 
 function Sample({ text, name, occupation,image }) {
   return (
-    <section className="mx-auto mb-40 md:mb-32 sample bg-white hover:text-white hover:cursor-pointer rounded-md">
-      <div className="px-5 md:px-12 py-4 shadow-2xl relative mx-2">
+    <section className="mx-auto mb-40 md:mb-32 sample bg-white hover:text-white cursor-pointer rounded-md w-full md:w-9/12">
+      <div className="px-5 md:px-12 py-4 shadow-2xl relative">
         <ImQuotesLeft className="text-gray-300 block mx-auto my-2" size="5rem" />
         <p className="mb-8 overflow-y-hidden p-tag">
           {text}

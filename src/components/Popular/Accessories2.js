@@ -3,7 +3,7 @@ import Popularsample from './Popularsample'
 // import mifi from '../../images/products/accessories/077F97CC-7B6F-4EC5-8A67-C5D602D8D18D.jpg'
 import speaker from '../../images/products/accessories/IMG_2470.JPG'
 import applePencil from '../../images/products/accessories/IMG_2472.PNG'
-import cod from '../../images/products/accessories/IMG_2471.JPG'
+// import cod from '../../images/products/accessories/IMG_2471.JPG'
 
 
 function Accessories2(props) {
@@ -20,6 +20,6 @@ function Accessories2(props) {
       }
     </>
   )
-}
+}   
 
 export default Accessories2
