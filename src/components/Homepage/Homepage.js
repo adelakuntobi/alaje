@@ -1,6 +1,7 @@
 import React from 'react';
 import alajelogo from '../../images/alaje-logo.svg'
 import header2 from '../../images/header2.svg'
+import Button from './button'
 // import Group24 from '../../images/Group 24.png'
 import Union from '../../images/Union.png'
 import Rectangle1 from '../../images/Rectangle 1.png'
@@ -21,6 +22,7 @@ function Homepage() {
       <header className="container mx-auto px-5 pt-8 pb-0 lg:p-8">
         <nav>
           <img src={alajelogo} loading="lazy" alt="alaje logo" />
+
         </nav>
 
         <div id="home" className="flex pt-8 pb-0 lg:pb-8 justify-between items-center">
@@ -33,7 +35,7 @@ function Homepage() {
             <p className="my-5">Buy Quality Phones, Laptops ,Gaming Consoles ,accessories and more at Best Prices.
         </p>
             <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
-              <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
+              <button className="button py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
             </button>
             </a>
@@ -54,7 +56,7 @@ function Homepage() {
               <p className="mt-5 mb-3">Buy Quality Phones, Laptops ,Gaming Consoles ,accessories and more at Best Prices.
           </p>
               <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
-                <button className="py-2 px-12 border outline-none mb-16 green-text orange-bg font-normal">
+                <button className="button py-2 px-12 border outline-none mb-16 green-text orange-bg font-normal">
                   Shop Now
               </button>
               </a>
@@ -83,7 +85,7 @@ function Homepage() {
             <h1 className="green-text text-2xl font-semibold leading-snug my-6">About Our Company</h1>
             <p className="">Alaje is a team of Tech guys thats provides a safe market place to purchase your gadgets and accessories online. We also provide quality repair service for your faulty devices.</p>
             <a href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
-              <button className="py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
+              <button className="button py-2 px-12 border outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
             </button>
             </a>
@@ -104,7 +106,7 @@ function Homepage() {
             consoles,
           accessories & more) at best prices | Easy Return | Quick Refund.</p>
             {/* <a className="text-white" href="https://api.whatsapp.com/send?phone=2347080915046&text=Hello%20welcome%20to%20Alajeonline%20">
-              <button className="text-white py-2 px-12 outline-none my-5 green-text orange-bg font-normal">
+              <button className="button text-white py-2 px-12 outline-none my-5 green-text orange-bg font-normal">
                 Shop Now
             </button>
             </a> */}
@@ -115,7 +117,7 @@ function Homepage() {
                 <input className="py-2 w-full text-black outline-none" placeholder="Enter Email Address"
                   type="email" htmlFor="email" />
               </div>
-              <button className="py-2 px-4 w-full lg:w-auto outline-none green-text orange-bg font-normal" value="submit" type="submit">
+              <button className="button py-2 px-4 w-full lg:w-auto outline-none green-text orange-bg font-normal" value="submit" type="submit">
                 <a href="https://github.com/evcohen">
                   Subscribe
             </a>
@@ -155,9 +157,9 @@ function Homepage() {
               </Link>
             </ul>
             <div className="flex flex-col lg:pl-8 lg:col-span-3 ">
-              <a href="https://goo.gl/maps/WymuqyXPk9Msi5wQA" 
-              target="_blank" rel="noopener noreferrer"
-               className="flex flex-row items-center mb-6">
+              <a href="https://goo.gl/maps/WymuqyXPk9Msi5wQA"
+                target="_blank" rel="noopener noreferrer"
+                className="flex flex-row items-center mb-6">
                 <MdLocationOn className="text-2xl mr-3" />
                 <p><b>Alaje Stores</b>, Isheri Oshun Rd, Ejigbo, Lagos</p>
               </a>
